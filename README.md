@@ -1,0 +1,4 @@
+# web-component
+Re-implementation of Web Component in Web
+
+ReactJs is one of the most popular in implementation of Web Components, each component represents by a single function that can accept properties and return html elements in direct html format. On the other hand, native implementation of Web Components unable to catch up with React due to the complicated implementation of each components. Native implementation unable to use HTML directly in the JavaScript and still it is not possible at the time to implement JSX in modern JavaScript Engines (e.g. V8, SpiderMonkey). Instead of writing an HTML directly to the JavaScript, why not write the HTML in JavaScript format, not the native functions like `document.createElement`, `document.createTextNode`, or even the `innerHTML`.
