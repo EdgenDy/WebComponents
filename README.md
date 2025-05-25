@@ -80,7 +80,7 @@ In HTML, the following will set the initial value of the `message-value` propert
 ```html
 <webcomponent name="message">
   <property name="message-value">Hello Web Component</property>
-</property>
+</webcomponent>
 ```
 
 This is the difference of proposed Web Component from the React Component, instead of directly use the property name inside the opening tag of a component, each property must have its corresponding `<property>` tag. This format is intentionally used to separate the logic between the HTML (view) and the JavaScript (functionality). 
